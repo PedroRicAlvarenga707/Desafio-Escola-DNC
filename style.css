@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+
+#MenuInicial{
+    background-color: #303030;
+    height: 350px;
+}
+#TextoTitulo{
+    color: #FFFFFF;
+    padding-left: 62px;
+    padding-top: 115px;
+    font-size: 50px;
+}
+#TextoSubTitulo{
+    color: #FFFFFF;
+    padding-left: 62px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+#IconesInformativo{
+  background-color: #F9F9F9;
+  display: grid; 
+  grid-auto-flow: column;
+  columns: auto;
+  font-size: 30px;
+  padding-left: 80px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.H2Informativo{
+    font-size: 45px;
+}
+.pInformativo{
+    font-size: 25px;
+}
+
+#TextoImagem{ 
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#TituloImagem{
+    padding-left: 30px;
+    padding-top: 240px;
+    font-size: 40px;
+}
+#ParagrafoImagem{
+    padding-left: 30px;
+    padding-top: 55px;
+    font-size: 24px;
+}
+#Imagem{
+    padding-left: 10px ;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#Formulario{
+    background-color: #303030;
+}
+#TituloFormulario{
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 10px;
+}
+input{
+    width: 400px;
+    height: 50px;
+    background-color: #EAECE5;
+    border: 0px;
+    border-radius: 3px;
+    padding-left: 10px ;
+    grid-auto-flow: row;
+    padding-left: 15px;
+    margin-left: 475px;
+    margin-top: 50px;
+}
+button{
+    width: 175px;
+    height: 50px;
+    border: 0px;
+    border-radius: 3px;
+    grid-auto-flow: row;
+    margin-left: 600px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    background-color: #C07212;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+}   
+button:hover{
+    background-color: #be6805;
+    color: #FFFFFF;
+    transform: translateY(-3px);
+    transition-duration: 0.2s;
+    box-shadow: 0px 15px 20px #05103086;
+}
